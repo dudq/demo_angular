@@ -1,0 +1,17 @@
+<p>angular-calculator works!</p>
+<div>
+  <input [(ngModel)]="firstOperator" type="number">
+  <select [(ngModel)]="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+  <input [(ngModel)]="secondOperator" type="number">
+</div>
+<div>
+  <button (click)="calculate()" class="btn-danger">Calculate</button>
+</div>
+<div>
+  {{result}}
+</div>
