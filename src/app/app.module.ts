@@ -6,13 +6,15 @@ import {FontSizeEditorComponent} from './font-size-editor/font-size-editor.compo
 import {PetComponent} from './pet/pet.component';
 import {FormsModule} from '@angular/forms';
 import {AngularCalculatorComponent} from './angular-calculator/angular-calculator.component';
+import {ColorPickerComponent} from './color-picker/color-picker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FontSizeEditorComponent,
     PetComponent,
-    AngularCalculatorComponent
+    AngularCalculatorComponent,
+    ColorPickerComponent
   ],
   imports: [
     BrowserModule,
