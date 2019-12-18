@@ -9,6 +9,7 @@ import {AngularCalculatorComponent} from './angular-calculator/angular-calculato
 import {ColorPickerComponent} from './color-picker/color-picker.component';
 import {NameCardComponent} from './name-card/name-card.component';
 import {ProgressBarComponent} from './progress-bar/progress-bar.component';
+import {RatingBarComponent} from './rating-bar/rating-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {ProgressBarComponent} from './progress-bar/progress-bar.component';
     AngularCalculatorComponent,
     ColorPickerComponent,
     NameCardComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    RatingBarComponent
   ],
   imports: [
     BrowserModule,
