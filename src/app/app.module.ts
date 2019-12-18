@@ -8,6 +8,7 @@ import {FormsModule} from '@angular/forms';
 import {AngularCalculatorComponent} from './angular-calculator/angular-calculator.component';
 import {ColorPickerComponent} from './color-picker/color-picker.component';
 import {NameCardComponent} from './name-card/name-card.component';
+import {ProgressBarComponent} from './progress-bar/progress-bar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {NameCardComponent} from './name-card/name-card.component';
     PetComponent,
     AngularCalculatorComponent,
     ColorPickerComponent,
-    NameCardComponent
+    NameCardComponent,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule,
