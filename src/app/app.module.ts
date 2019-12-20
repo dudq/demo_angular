@@ -13,6 +13,7 @@ import {RatingBarComponent} from './rating-bar/rating-bar.component';
 import {CountdownComponent} from './countdown/countdown.component';
 import {TodoComponent} from './todo/todo.component';
 import {RegisterComponent} from './register/register.component';
+import {LoginComponent} from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {RegisterComponent} from './register/register.component';
     RatingBarComponent,
     CountdownComponent,
     TodoComponent,
-    RegisterComponent
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
