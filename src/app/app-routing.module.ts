@@ -3,6 +3,8 @@ import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
 import {NgModule} from '@angular/core';
 import {YoutubePlaylistComponent} from './youtube-playlist/youtube-playlist.component';
 import {YoutubePlayerComponent} from './youtube-player/youtube-player.component';
+import {DictionaryPageComponent} from './dictionary-page/dictionary-page.component';
+import {DictionaryDetailComponent} from './dictionary-detail/dictionary-detail.component';
 
 const routes: Routes = [
   {
@@ -17,6 +19,17 @@ const routes: Routes = [
       component: YoutubePlayerComponent
     }]
 
+  },
+  {
+    path: 'dictionary',
+    component: DictionaryPageComponent,
+    children: [
+      {
+        path: ':key',
+        component: DictionaryDetailComponent
+        // canActivate: [AuthGuard]
+      }
+    ]
   }
 ];
 
