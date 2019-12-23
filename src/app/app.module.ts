@@ -14,6 +14,8 @@ import {CountdownComponent} from './countdown/countdown.component';
 import {TodoComponent} from './todo/todo.component';
 import {RegisterComponent} from './register/register.component';
 import {LoginComponent} from './login/login.component';
+import {TimelinesComponent} from './timelines/timelines.component';
+import {AppRoutingModule} from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -28,12 +30,14 @@ import {LoginComponent} from './login/login.component';
     CountdownComponent,
     TodoComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    TimelinesComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
